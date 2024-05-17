@@ -1,0 +1,24 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      File: langsci-basic.sty
+%%    Author: Language Science Press (http://langsci-press.org)
+%%      Date: 2016-01-16 16:47:43 UTC 
+%%   Purpose: This file contains essential macros and is included 
+%%            into langscibook.cls
+%%  Language: LaTeX
+%%   Licence: 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\rmfnm}{{\upshape\footnotemark}} %romanfootnotemark
+
+
+\newcommand{\protectedex}[1]{%
+\parbox{\textwidth}{#1}
+}
+
+
+\newcommand{\largerpage}[1][1]{%
+\enlargethispage{#1\baselineskip}
+}
+
+\newcommand\shorttitlerunninghead[1]{\rohead{\thechapter\hspace{.5em} #1}} 
